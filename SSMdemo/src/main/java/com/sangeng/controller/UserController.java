@@ -26,7 +26,7 @@ public class UserController {
     public ResponseResult findById(@PathVariable("id") Integer id) {
         User user = userService.findById(id);
         if (user == null) {
-            return new ResponseResult(500, "failed!!!!!!!!!!!!!!!!!");
+            return new ResponseResult(500, "failed!!!!!1737!!!!!");
         }
         return new ResponseResult(200, "success~~~", user);
     }
